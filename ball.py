@@ -18,7 +18,7 @@ class Ball(Turtle):
 
     def bounce_x(self):
         self.x_move *= -1
-        self.move_speed *= 0.3
+        # self.move_speed *= 0.3 this line could be added and altered to increase the ball's speed if the ball was missed by one of the opponents
     def reset_position(self):
         self.goto(0, 0)
         self.move_speed = 0.1
